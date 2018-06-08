@@ -1,5 +1,5 @@
 all:
-	gcc -o bonzim bonzim.c -lcurl
+	gcc -O3 -o bonzim bonzim.c -lcurl
 
 clean:
 	rm -f bonzim
